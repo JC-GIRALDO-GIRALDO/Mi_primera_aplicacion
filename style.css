@@ -1,0 +1,55 @@
+h1 {
+    font-size: 60px;
+    background-color: rgb(68, 17, 187);
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 40px 350px;
+    grid-template-columns: 390px;
+}
+
+.header {
+    background-color: chocolate;
+}
+
+a {
+    float: auto;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+    transition: 10ms;
+}
+
+#main {
+    width: 390px;
+    background-color: coral;
+}
+
+.form-group {
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+button {
+    font-size: 15px;
+    width: 390px;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.473);
+    transition: 15ms;
+}
